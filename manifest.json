@@ -1,0 +1,15 @@
+{
+    "manifest_version": 3,
+    "name": "TAKE IT",
+    "version": "1.0",
+    "description": "A ToDo List Extension",
+    "permissions": [
+        "storage"
+    ],
+    "action": {
+        "default_popup": "index.html",
+        "default_icon": {
+            "16": "ICON.PNG"
+        }
+    }
+}

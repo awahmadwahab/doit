@@ -1,0 +1,111 @@
+body {
+    font-family: 'Trebuchet MS', Arial, sans-serif;
+    width: 50%;
+    background-color: #000;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    margin: 20px auto;
+}
+
+#heading {
+    font-style: italic;
+    font-weight: bold;
+}
+
+#title {
+    text-indent: 5px;
+    font-weight: bold;
+    padding: 5px 2px;
+    margin: 10px;
+    border: 2px solid rgb(174, 75, 5);
+    border-radius: 5px;
+}
+
+#btn-div {
+    margin: 10px 0;
+}
+
+.btn{
+    padding: 5px 20px;
+    margin-inline-end: 10px;
+    font-weight: bold;
+    border-radius: 5px;
+    background-color: #000;
+    border: 2px solid rgb(174, 75, 5);
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.5s;
+}
+
+.btn:hover {
+    background-color: rgb(174, 75, 5);
+    color: white;
+}
+
+.btn:active {
+    background-color: rgb(174, 75, 5);
+    color: rgb(33, 15, 15);
+}
+
+.list {
+    display: block;
+    text-align: left;
+    background-color: white;
+    color: black;
+    border-radius: 10px;
+    width: 80%;
+    margin: 10px auto;
+    padding: 5px 10px;
+    transition: color 0.3s, background-color 0.3s;
+}
+
+.list:hover {
+    transition: color 0.3s, background-color 0.3s;
+    color: white;
+    background-color: rgb(174, 75, 5);
+}
+
+.list button {
+    border-radius: 5px;
+    display: inline;
+    float: right;
+    color: white;
+    border: none;
+    background-color:rgb(174, 75, 5);
+    font-weight: bold;
+    transition: color 0.3s, background-color 0.3s;
+    cursor: pointer;
+}
+
+@media (max-width: 400px) {
+    body {
+        width: 100%;
+       
+    }
+    #container
+    {
+     margin-right: 10%;
+    
+    }
+    #add-btn
+    {
+        margin-bottom: 8px;
+    }
+    .list {
+        width: 50%;
+        height: auto;
+        font-size: 15px;
+    }
+}
+@media (max-width:578px) {
+    body{
+        width: 100%;
+        font-size: large;
+    }
+    #container
+    {
+        width: 90%;
+        height: max-content;
+    }
+}
